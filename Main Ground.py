@@ -2,7 +2,7 @@ Diana = ['frumoasa' , 'desteapta' , 'zana']
 Darius = Diana.copy()
 
 Gaby = ['ro']
-Laurentiu = Gaby.append('man')
+Laurentiu = Gaby + ['man']
 
 
 Darius.append('sot')
