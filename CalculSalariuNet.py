@@ -6,7 +6,6 @@ def calcul_salariu_net (salariu_brut):
     salariu_net = salariu_brut - impozit_pe_venit
     return(salariu_net)
 
-keyboard_input = input()
-salariu_brut = int(keyboard_input)
+salariu_brut = int(input())
 rezultat = calcul_salariu_net(salariu_brut)
 print(rezultat)
